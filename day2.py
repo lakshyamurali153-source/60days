@@ -16,7 +16,7 @@ elif marks>=75:
     print("status: passed")
 elif marks>=50:
     print("Grade: C")
-    print("status: passed")
+    print("status: passed") 
 else:
     print("Grade: Fail")
     print("status: failed")
