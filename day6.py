@@ -1,5 +1,5 @@
 with open("fizzbuzz.txt", "w") as f:
-   x=int(input("Enter a number: "))
+   x=int(input("Enter a integer number: "))
    for i in range(1,x+1):
      if i % 3 == 0 and i % 5 == 0:
         f.write("fizzbuzz\n")
