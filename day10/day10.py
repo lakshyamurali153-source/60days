@@ -1,10 +1,9 @@
 def maxsubarray(arr):
     res=arr[0]
+    max_sum=arr[0]
     for i in range(len(arr)):
-        sum=0
-        for j in range(i,len(arr)):
-            sum+=arr[j]
-            res=max(res,sum)
+        max_sum=max(max_sum+arr[i], arr[i])
+        res=max(res, max_sum)
     return res
 
 arr=list(map(int,input().split()))
