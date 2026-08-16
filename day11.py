@@ -16,7 +16,7 @@ def move_zeroes(nums):
 
     return nums
 
-# --- Testing the Logic ---
+
 if __name__ == "__main__":
     test_array = [0, 1, 0, 3, 12]
     print(f"Original Array: {test_array}")
