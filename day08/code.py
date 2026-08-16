@@ -1,4 +1,3 @@
-# 1. Create an array of numbers (Simulating a list of user age data)
 arr = [21, 34, 42, 55, 68, 70, 83, 92]
 print("Simulated User Data (Ages):", arr)
 count = 0
